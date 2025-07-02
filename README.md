@@ -1,12 +1,73 @@
-# React + Vite
+# Week 3 React.js Assignment – EngKen-Peter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my submission for the Week 3 React.js assignment. The application is built using React.js (Vite) and styled with Tailwind CSS. It includes a task manager with persistent state, reusable UI components, a quote section, and responsive design.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://week-3-react-js-assignment-eng-ken-eta.vercel.app/
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite project setup
+- Tailwind CSS for styling
+- Reusable components: Button, Card, Navbar, Footer
+- Task Manager with localStorage persistence
+- Task filtering: All, Active, Completed
+- Undo and Delete task actions
+- Charles Dickens quote section
+- Light/Dark mode support
+- Fully responsive layout
+- Deployed using Vercel
+
+## Screenshots
+
+(<screenshots/Screenshot 2025-07-03 003921.png>)
+(<screenshots/Screenshot 2025-07-03 004156.png>)
+
+## Project Structure
+
+my-react-app/
+├── public/
+├── src/
+│ ├── components/
+│ ├── context/
+│ ├── hooks/
+│ ├── App.jsx
+│ ├── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+├── screenshots/
+└── README.md
+
+## Setup Instructions
+
+1. Clone the repository:
+   git clone https://github.com/EngKen-Peter/week-3-react-js-assignment-EngKen-Peter.git
+   cd week-3-react-js-assignment-EngKen-Peter
+
+2. Install dependencies:
+   npm install
+
+3. Start development server:
+   npm run dev
+
+4. Build for production:
+   npm run build
+
+## Technologies Used
+
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- Git and GitHub
+- Vercel
+
+## Author
+
+Kennedy Mbaluka Peter  
+GitHub: https://github.com/EngKen-Peter
+
+
